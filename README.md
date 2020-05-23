@@ -12,6 +12,8 @@ dashboard: showing status of teams and players
 analysis: analyzing salary data of NBA players from 2010 to 2019 seasons
 prediction: predicting salary using the trained Azure machine learning mode
 
+[Demo](https://s1ia6rnpx4.execute-api.us-east-1.amazonaws.com/dev/)
+
 ### process
 1. scraping data of NBA teams and players (2020 season) from basket ball-reference.com for dashboard and upload the data to dynamoDB on AWS. (the deatil is in dashboard folder.)
 
