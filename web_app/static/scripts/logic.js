@@ -867,18 +867,17 @@ d3.json(teams_data_url).then(function(teams_data) {
     // console.log(teams_data);
     // console.log(players_data);
     teams_wins = [];
-    var t = 0;
+    west_teams = ["DEN","UTA","OKC","POR","MIN","LAL","LAC","SAC","PHO","GSW","HOU","DAL","MEM","NOP","SAS"];
+
     teams_data.forEach(function (d){
       var wins = +d.wins
       var losses = +d.losses
       var winning_p = wins /(wins + losses)
-      //check if the team is a eatern/western conference team
-      //the first 15 teams are eastern conference teams
-      //the rest of them are western conference teams
-      if(t < 15){
-        var conference = "east";
+ 
+      if(west_teams.indexOf(d.team_abbr) >=0){
+        var conference ="west"
       }else{
-        var conference = "west";
+        var conference ="east"
       }
       // console.log(winning_p)
       var wins_info = {
@@ -890,7 +889,7 @@ d3.json(teams_data_url).then(function(teams_data) {
         conf: conference
       };
       teams_wins.push(wins_info);
-      t += 1;
+
     })
     //sort the teams win info by descending of wins
     teams_wins = teams_wins.slice().sort((a, b) => d3.descending(a.win_p, b.win_p))
