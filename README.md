@@ -8,9 +8,9 @@ NBA is one of famous professional sport leagues in the world. Each team has a pe
 ## Project outline
 This project is to analyze status and salaries of players, find the relationship between game perhormance and salaries of players and create a machine learning mode to predict salaries using status. The result of project is hosted as Flask app on AWS. The flask app contains three parts: dashboard, analysis, and prediction.
 
-dashboard: showing status of teams and players
-analysis: analyzing salary data of NBA players from 2010 to 2019 seasons
-prediction: predicting salary using the trained Azure machine learning mode
+* dashboard: showing status of teams and players
+* analysis: analyzing salary data of NBA players from 2010 to 2019 seasons<br>
+* prediction: predicting salary using the trained Azure machine learning mode<br>
 
 [Demo](https://s1ia6rnpx4.execute-api.us-east-1.amazonaws.com/dev/)
 
