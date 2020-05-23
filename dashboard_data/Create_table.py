@@ -9,11 +9,7 @@ dynamo = boto3.resource('dynamodb', region_name="us-east-1")
 
 
 def create_table(table):
-        # table='bobTable'
-        # table='teams'
-        # attr_name = 'team'
-
-        # table='players'
+        
         if table == 'players_test':
             attr_name = 'player'
         else:
