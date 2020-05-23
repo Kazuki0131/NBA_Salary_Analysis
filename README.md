@@ -1,5 +1,7 @@
 # NBA_salary_analysis
 
+![NBA_analytics](image/NBA_analytics.jpg)
+
 ## Background
 NBA is one of famous professional sport leagues in the world. Each team has a perceived worth of $1.2 billion or more per Forbes' annual report. The average NBA player salary is $7.7 million for the season (2019 - 2020). The Golden State Warrior star Stephen Curry's earnings for the season (2019 -2020) is $40.2 million. How has the highest paid salaries been determined? Do players who have high game performance always receive high salary contracts?
 
