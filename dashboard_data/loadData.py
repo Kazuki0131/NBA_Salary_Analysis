@@ -11,9 +11,9 @@ jsonFiles = ["NBA_teams_data.json", "NBA_players_data.json"]
 
 for jsonFile in jsonFiles:
     if jsonFile == "NBA_teams_data.json":
-        table_name = 'teams_test'
+        table_name = 'teams'
     else:
-        table_name = 'players_test'
+        table_name = 'players'
 
     table = dynamo_client.Table(table_name)
 
