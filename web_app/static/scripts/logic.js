@@ -216,12 +216,14 @@ function plotRadarCahrt(event){
   // console.log("team_data: ", team_data)
   team_status = []
   status_labels = []
-  labels = {'rk_AST':'Assist','rk_BLK':'BLock','rk_PTS':'Point', 'rk_STL':'Steal', 'rk_TOV':'Turnover', 'rk_TRB':'Rebound'};
+//   labels = {'rk_AST':'Assist','rk_BLK':'Block','rk_PTS':'Point', 'rk_STL':'Steal', 'rk_TOV':'Turnover', 'rk_TRB':'Rebound'};
+  labels = {'rk_AST':'Assist','rk_BLK':'Block','rk_PTS':'Point', 'rk_STL':'Steal', 'rk_Three_PP':'3-Point Field Goals %', 'rk_TRB':'Rebound'};
   first_status = ""
   first_label = ""
   index = 0
   Object.entries(team_data).forEach(([key, value]) => {
-    if(key === "rk_AST" || key === "rk_BLK" || key === "rk_PTS" || key === "rk_STL" || key === "rk_TOV" || key === "rk_TRB"){
+//     if(key === "rk_AST" || key === "rk_BLK" || key === "rk_PTS" || key === "rk_STL" || key === "rk_TOV" || key === "rk_TRB"){
+    if(key === "rk_AST" || key === "rk_BLK" || key === "rk_PTS" || key === "rk_STL" || key === "rk_Three_PP" || key === "rk_TRB"){  
       team_status.push(Math.round((30-value)/29*100));
       status_labels.push(labels[key])
       // console.log("team: ",key)
@@ -400,10 +402,10 @@ function createBarChart(event){
       pointPlacement: -0.2,
       linkedTo: 'main',
       data: getData(teams_wins, "sub").slice(),
-      name: 'conference'
+      name: 'Conference'
     }, 
     {
-      name: 'Leage',
+      name: 'League',
       id: 'main',
       dataSorting: {
         enabled: true,
