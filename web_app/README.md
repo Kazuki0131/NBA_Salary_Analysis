@@ -12,9 +12,11 @@ Steps to make the Flask_App work in Zappa
 3. Run `aws configure` and set your access keys and the region you would like to use for you DynamoDB
 4. ensure the Flask_app is working<br>
 5. create virtualenv (you may need to `pip install virtualenv`) <br>
-    5a. for windows (and probably Max) `python -m venv \zappenv`
+    5a. for windows (and probably Max) `python -m venv \zappenv`<br>
+    5b. for Mac `virtualenv zappenv`<br>
 6. activate your virtualenv <br>
-    6a. for Windows (and probably Mac) `\zappenv\Scripts\activate.bat`
+    6a. for Windows (and probably Mac) `\zappenv\Scripts\activate.bat`<br>
+    6b. for Mac `source ./zappenv/bin/activate`<br>
 7. install requirements.txt `pip install -r requirements.txt`<br>
     (note) you may need to update pip and remember to include any additional requirements you have added.
     to update pip type `python -m pip install --upgrade pip`
