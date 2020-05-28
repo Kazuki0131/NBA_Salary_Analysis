@@ -24,4 +24,4 @@ This project is to analyze status and salaries of players, find the relationship
 4. creating the Flask app with the dashboard, Tableau analysis, and web application of Azure ML and hosting it on AWS (the detail is in web_app folder.)
 
 ## Technology used
-Flask, AWS, DynamoDB, Azure ML, Javascript, Tableau, Python
+Python, Flask, AWS, S3, DynamoDB, Azure ML, Tableau, JavaScript (D3, Leaflet, Plotly)
