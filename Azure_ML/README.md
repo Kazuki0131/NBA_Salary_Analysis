@@ -2,7 +2,7 @@
 
 1. download the NBA_FULL_Salaries_2000-2019.csv from [kaggle.com](https://www.kaggle.com/hrfang1995/nba-salaries-by-players-of-season-2000-to-2019)
 
-2. run NBA_players_salary_data.ipynb. The jupyter notebook will scrape 10 years NBA players data (2010 - 2019) from basketball-reference.com, combine the players data and salary data (NBA_FULL_Salaries_2000-2019.csv), and split players to 3 groups by salary ranges (<= $2,000,000, > $2,000,000 & <= $8,000,000, and more than $8,000,000>). (the result is players_salary_by_groups.csv)
+2. run NBA_players_salary_data.ipynb. The jupyter notebook will scrape 10 years NBA players data (2010 - 2019) from basketball-reference.com, combine the players data and salary data (NBA_FULL_Salaries_2000-2019.csv), and split players to 3 groups by salary ranges ("$0 - $2,000,000", "$2,000,000 - $8,000,000", and "more than $8,000,000"). (the result is players_salary_by_groups.csv)
 
 3. use the result (players_salary_by_groups.csv) from the jupyter notebook to create machine learning mode on Azure Machine learning Studio.
 
