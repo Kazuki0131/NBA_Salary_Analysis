@@ -28,7 +28,7 @@ Logistic Regression, Random Forest, and neural network classification machine le
 
 ![multi-models_with_all_columns](image/ML_models/multi-models(all_columns).png)
 
-The results below were for the three models using all players stats to predict salary ranges. The overall accuracies of the three models are over 60%. The Neural Network model had the highest overall accuracy (69.40%). Changing the parameters of Neural Network model may improve the accuracy. However, there was no significant increase of accuracy even if adjusting the parameters (number of hidden nodes: 100 - 500, learning rate: 0.1 - 0.001, number of iterations: 1000 - 10000). This may indicate that there may be other factors could affect the salary. Adding new data set (for example, ranking of popur NBA players, jersey sales of NBA players, and so on) may be the next step for this project to improve the accuracy of model. 
+The results below were for the three machine learing models. The overall accuracies of the three models were over 60%. The Neural Network model had the highest overall accuracy (69.40%). Changing the parameters of Neural Network model might improve the accuracy. However, there was no significant increase of accuracy after adjusting the parameters (number of hidden nodes: 100 - 500, learning rate: 0.1 - 0.001, number of iterations: 1000 - 10000). This might indicate that there were other factors could affect the salary. Adding new data set (for example, ranking of popur NBA players, jersey sales of NBA players, and so on) might be the next step for this project to improve the accuracy of model. 
 
 ### Logistic Regression model:
 ![Logistic_Regression_model_with_all_columns](image/ML_models/result_of_logistic_regression_model(all_columns).png)
@@ -39,7 +39,7 @@ The results below were for the three models using all players stats to predict s
 ### Neural Network model:
 ![Neural_Network_model_with_all_columns](image/ML_models/result_of_neural_network_model(all_columns).png)
 
-(In order to create an interactive website, the machine learning model used in the demo website only has 4 stats for input data instead of all stats.)
+(In order to create an interactive website, the machine learning model used in the demo website only has 4 stats for input data instead of using all stats.)
 
 ## Technology used
 Python, Flask, AWS, S3, DynamoDB, Azure ML, Tableau, JavaScript (D3, Leaflet, Plotly)
