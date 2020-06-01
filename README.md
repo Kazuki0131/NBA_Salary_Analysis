@@ -24,7 +24,7 @@ This project is to analyze stats and salaries of players, find the relationship 
 4. creating the Flask app with the dashboard, Tableau analysis, and web application of Azure ML and hosting it on AWS (the detail is in web_app folder.)
 
 ## Outcome
-Logistic Regression, Random Forest, and neural network classification machine learning models were examined in this project to find an appropriate model for predicting salary ranges ($0 - $2,000,000, $2,000,000 - $8,000,000, and more than $8,000,000) using NBA player stats. (The reason why salay ranges were classified into "$0 - $2 million", "$2 million - $8 million", and "more than $8 million" was to keep training data (number of players) in each range equally)
+Logistic Regression, Random Forest, and neural network classification machine learning models were examined in this project to find an appropriate model for predicting salary ranges ($0 - $2,000,000, $2,000,000 - $8,000,000, and more than $8,000,000) using NBA player stats. (The reason why salay ranges classified into "$0 - $2 million", "$2 million - $8 million", and "more than $8 million" was to keep training data (number of players) equally in each range.)
 
 ![multi-models_with_all_columns](image/ML_models/multi-models(all_columns).png)
 
