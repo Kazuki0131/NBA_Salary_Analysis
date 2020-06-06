@@ -42,4 +42,4 @@ The results below were for the three machine learing models. The overall accurac
 (In order to create an interactive website, the machine learning model used in the demo website only has 4 stats for input data instead of using all stats.)
 
 ## Technology used
-* Python, Flask, AWS, S3, DynamoDB, Azure ML, Tableau, JavaScript (D3, Leaflet, Plotly)
+* Python, Flask, AWS, S3, DynamoDB, ETL, Azure ML, Tableau, JavaScript (D3, Leaflet, Plotly)
