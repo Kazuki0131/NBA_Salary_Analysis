@@ -6,7 +6,7 @@
 NBA is one of famous professional sport leagues in the world. Each team has a perceived worth of $1.2 billion or more per Forbes' annual report. The average NBA player salary is $7.7 million for the season (2019 - 2020). The Golden State Warrior star Stephen Curry's earnings for the season (2019 -2020) is $40.2 million. How has the highest paid salaries been determined? Do players who have high game performance always receive high salary contracts?
 
 ## Project outline
-This project is to analyze stats and salaries of players, find the relationship between game perhormance and salaries of players and create a machine learning mode to predict salary ranges ($0 - $2,000,000, $2,000,000 - $8,000,000, and more than $8,000,000) using stats. The result of project is hosted as Flask app on AWS. The flask app contains three parts: dashboard, analysis, and prediction.
+This project is to analyze stats and salaries of players, find the relationship between game performance and salaries of players and create a machine learning mode to predict salary ranges ($0 - $2,000,000, $2,000,000 - $8,000,000, and more than $8,000,000) using stats. The result of project is hosted as Flask app on AWS. The flask app contains three parts: dashboard, analysis, and prediction.
 
 * dashboard: showing stats of teams and players
 * analysis: analyzing salary data of NBA players from 2010 to 2019 seasons<br>
