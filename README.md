@@ -12,7 +12,6 @@ This project is to analyze stats and salaries of players, find the relationship 
 * analysis: analyzing salary data of NBA players from 2010 to 2019 seasons<br>
 * prediction: predicting salary using the trained Azure machine learning model<br>
 
-[Demo](https://s1ia6rnpx4.execute-api.us-east-1.amazonaws.com/dev/)
 
 ### process
 1. scraping data of NBA teams and players (2020 season) from basket ball-reference.com for dashboard and upload the data to dynamoDB on AWS. (the detail is in dashboard folder.)
